@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(1, 1, 36);
+            margin:10px;
+            padding:10px;
+        }
+        #heading{
+            color:white;
+            text-align: center;
+            font-size: 84px;
+        }
+
+        .btn{
+            background-color: green;
+            color:white;
+            font-size: 50px;
+            padding:25px;
+            border-radius: 30px;
+            border: 10px solid white;
+        }
+        #voter{
+            height:400px;
+            width:400px;
+            display: flex;
+            justify-content: center;
+        }
+        .icn{
+            height:150px;
+            width:150px;
+        }
+        #voter_image{
+            display: flex;
+            justify-content: center;
+        }
+        #icons{
+            display: flex;
+            justify-content: center;
+            gap:400px;
+        }
+        #button_content{
+            display: flex;
+            justify-content: center;
+            gap:30px;
+        }
+
+    </style>
+</head>
+<body>
+      <h1 id="heading">"Vote with the nation in mind!"</h1>
+      <div id="voter_image">
+        <img src="voter.png" alt="Voter" id="voter">
+        <h3></h3>
+      </div>
+      <h3>Please scan your thumb finger</h3>
+      <div id="icons">
+        <img src="fingerprint.png" alt="Scan your Finger" class="icn">
+        <img src="facial.png" alt="Scan your face" class="icn">
+        <img src="voice.png" alt="Call your name" class="icn">
+      </div>
+      <div id="button_content">
+
+        <button type="button" class="btn">Fingerprint Scan</button>
+        
+        <button type="button" class="btn">Facial Recognition</button>
+       
+        <button type="button" class="btn" >Voice Recognition</button>
+      </div>
+</body>
+</html>
