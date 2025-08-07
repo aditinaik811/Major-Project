@@ -7,8 +7,8 @@
 #include <HardwareSerial.h>
 
 
-const char* ssid = "Xiaomi";
-const char* password = "Hitha@13";
+const char* ssid = "Redmi Note 10";
+const char* password = "aditinaik";
 
 // Use UART2 on ESP32
 HardwareSerial mySerial(2); // UART2
